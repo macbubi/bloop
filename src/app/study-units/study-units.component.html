@@ -1,0 +1,9 @@
+<div class="navigation">
+  <!-- <app-study-units-search></app-study-units-search>
+  <app-study-units-filter></app-study-units-filter> -->
+</div>
+<div class="results">
+  <div class="studyUnit" *ngFor="let studyUnit of (studyUnits | async).studyUnits">
+    <app-study-unit [studyUnit]="studyUnit"></app-study-unit>
+  </div>
+</div>

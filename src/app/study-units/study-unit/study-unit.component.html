@@ -1,0 +1,50 @@
+<table [ngStyle]="{'width': '400px', 'border': '1px solid black', 'margin': '10px'}">
+  <tr>
+    <td>Title</td>
+    <td>{{ studyUnit.title }}</td>
+  </tr>
+  <tr>
+    <td>Image</td>
+    <td>{{ studyUnit.thumbImagePath }}</td>
+  </tr>
+  <tr>
+    <td>description</td>
+    <td>{{ studyUnit.description }}</td>
+  </tr>
+  <tr>
+    <td>keywords</td>
+    <td>{{ studyUnit.keywords.join(' ') }}</td>
+  </tr>
+  <tr>
+    <td>type</td>
+    <td>{{ studyUnit.type }}</td>
+  </tr>
+  <tr>
+    <td>degree</td>
+    <td>{{ studyUnit.degree }}</td>
+  </tr>
+  <tr>
+    <td>university</td>
+    <td>{{ studyUnit.university }}</td>
+  </tr>
+  <tr>
+    <td>course</td>
+    <td>{{ studyUnit.course }}</td>
+  </tr>
+  <tr>
+    <td>createdAt</td>
+    <td>{{ studyUnit.createdAt }}</td>
+  </tr>
+  <tr>
+    <td>updatedAt</td>
+    <td>{{ studyUnit.updatedAt }}</td>
+  </tr>
+  <tr>
+    <td>views</td>
+    <td>{{ studyUnit.views }}</td>
+  </tr>
+  <tr>
+    <td>downloads</td>
+    <td>{{ studyUnit.downloads }}</td>
+  </tr>
+</table>
